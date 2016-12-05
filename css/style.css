@@ -13,6 +13,17 @@ h1 {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.welcome {
+  background-color: #0fa5da;
+  box-sizing: border-box;
+  padding: 40px;
+  position: fixed;
+  left: 0;
+  top: 80px;
+  text-align: center;
+  width: 100%;
+  z-index: 999;
+}
 
 .skill-html {
   background-color: #E55126;
