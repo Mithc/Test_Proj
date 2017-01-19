@@ -1,69 +1,75 @@
 body {
-  font-family: Helvetica;
-  padding: 2em;
-  background-color: whitesmoke;
+    font-family: Helvetica;
+    padding: 2em;
+    background-color: whitesmoke;
+    background: black url("../2.jpg") no-repeat center;
+    background-size: cover;
 }
 
 h1 {
-  font-size: 2.5em;
+    font-size: 2.5em;
 }
 
 .skillset {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 .welcome {
-  background-color: #0fa5da;
-  box-sizing: border-box;
-  padding: 40px;
-  position: fixed;
-  left: 0;
-  top: 80px;
-  text-align: center;
-  width: 100%;
-  z-index: 999;
+    background: #000000;
+    box-sizing: border-box;
+    padding: 40px;
+    position: fixed;
+    left: 0;
+    top: 350px;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+    color: #ffffff;
 }
 
 .skill-html {
-  background-color: #E55126;
+    background-color: #9c734e;
 }
 
 .skill-js {
-  background-color: #E5A227;
+    background-color: #a06644;
 }
 
 .skill-jquery {
-  background-color: #0C73B8;
+    background-color: #2f3835;
 }
 
-.skill-html,
-.skill-js,
-.skill-jquery {
-  width: 100%;
-  padding: 1em 3em 2em 2em;
-  margin: 0.5em;
-  color: whitesmoke;
+.skill-angular {
+    background-color: #312921;
+}
+
+.skill-html, .skill-js, .skill-jquery, .skill-angular {
+    width: 100%;
+    padding: 1em 3em 2em 2em;
+    margin: 0.5em;
+    color: whitesmoke;
 }
 
 .projects-button {
-  padding: 0.75em 1.25em;
-  background-color: whitesmoke;
-  opacity: 0.9;
-  width: 10em;
-  color: black;
+    padding: 0.75em 1.25em;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    width: 10em;
+    color: black;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+    list-style: none;
+    padding: 0;
 }
 
 .projects {
-  margin: 1em 0;
+    margin: 1em 0;
 }
 
 .active {
-  background-color: #333333;
-  color: whitesmoke;
+    background-color: #333333;
+    color: whitesmoke;
 }
